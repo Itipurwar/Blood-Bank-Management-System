@@ -54,7 +54,7 @@ session_start();
                         <td><center><b><font color="blue">E-Mail</font></b></center></td>
                     </tr>
                     <?php
-                    $q=$db->query("SELECT * FROM exchange_b");
+                    $q=$db->query("SELECT * FROM exchange_blood_list");
                     while($r1=$q->fetch(PDO::FETCH_OBJ))
                     {
                         ?>
