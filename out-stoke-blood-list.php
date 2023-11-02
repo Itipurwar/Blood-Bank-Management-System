@@ -55,7 +55,7 @@ session_start();
                     		<tr>
                     		<td><center><?= $r1->name; ?></center></td>
                     		<td><center><?= $r1->mno; ?></center></td>
-                    		<td><center><?= $r1->bname; ?></center></td>
+                    		<td><center><?= $r1->bgroup; ?></center></td>
                     	</tr>
                     		<?php
                     	}
